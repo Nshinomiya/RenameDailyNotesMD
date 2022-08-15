@@ -3,17 +3,17 @@
     switch($args[0])
     {
        default {return $args[0]}
-        "January" {return 1}
-        "February" {return 2}
-        "March" {return 3}
-        "April" {return 4}
-        "May" {return 5}
-        "June" {return 6}
-        "July" {return 7}
-        "August" {return 8}
-        "September" {return 9}
-        "October" {return 10}
-        "November" {return 11}
-        "December" {return 12}
+        "January" {return "01"}
+        "February" {return "02"}
+        "March" {return "03"}
+        "April" {return "04"}
+        "May" {return "05"}
+        "June" {return "06"}
+        "July" {return "07"}
+        "August" {return "08"}
+        "September" {return "09"}
+        "October" {return "10"}
+        "November" {return "11"}
+        "December" {return "12"}
     }
 }
